@@ -8,7 +8,10 @@
 .download-button:active{transform:translateY(0)}
 .download-button span{font-size:18px;font-weight:400}
 .footer-download{display:flex;justify-content:center;padding:0 0 35px}
+.footer-contact{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:end;margin-top:38px;padding:42px 0 32px}.footer-contact h2{color:var(--cream);font-size:clamp(42px,6vw,88px);margin-top:14px}.footer-contact-copy{justify-self:end;max-width:390px}.footer-contact-copy p{color:#d4e0dc;font-size:14px;line-height:1.75;margin:0 0 22px}.linkedin-link{display:inline-flex;align-items:center;justify-content:space-between;gap:60px;min-width:210px;border:1px solid #ffffff50;border-radius:999px;padding:14px 19px;font-size:13px;font-weight:700;transition:background .2s,color .2s,border-color .2s}.linkedin-link:hover{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}.linkedin-link .ui-icon{width:17px;height:17px}
+.footer-bottom{border-top:0;padding-top:18px;padding-bottom:4px}
 @media(max-width:650px){.site-header{height:auto;min-height:100px;flex-wrap:wrap;gap:12px;padding-top:14px;padding-bottom:14px}.header-download{padding:9px 15px;font-size:11px;gap:12px}.site-header nav{order:3;width:100%;justify-content:center}.footer-download{padding-bottom:25px}}
+@media(max-width:650px){.footer-contact{grid-template-columns:1fr;gap:20px;padding-bottom:30px;margin-bottom:30px}.footer-contact-copy{justify-self:start;max-width:none}.footer-contact-copy p{font-size:12px}.linkedin-link{min-width:190px;gap:45px;padding:12px 17px}}
 
 /* Integrated monochrome brand signature, using the original shopper artwork. */
 .wordmark{display:inline-flex;align-items:center;gap:11px;flex-shrink:0}
@@ -34,3 +37,5 @@
 
 @media(max-width:360px){.how .section-heading{flex-wrap:wrap}.start .section-heading{flex-wrap:wrap;gap:12px}.footer-wordmark{font-size:20vw}}
 @media(max-width:360px){.store-map>.map-ring:not(.inner){left:25px;right:25px}}
+
+/* Smoothly blend the light page into the teal footer. */
